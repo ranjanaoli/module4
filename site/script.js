@@ -46,7 +46,7 @@ for (var i in names){
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
   // Use the string object's 'charAt' function. 
- firstLetter = names[i].charAt(0).toLowerCase;
+ firstLetter = names[i].charAt(0).toLowerCase();
  //Since we are looking for
  // names that start with either upper case or lower case 'J'/'j', call
  // string object's 'toLowerCase' method on the result so we can compare
