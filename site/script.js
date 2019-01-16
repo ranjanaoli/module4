@@ -42,7 +42,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 //for (/* fill in parts of the 'for' loop to loop over names array */) {
 var firstLetter ='';
 for (var i in names){
-
+ 
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
   // Use the string object's 'charAt' function. 
@@ -52,7 +52,7 @@ for (var i in names){
  // string object's 'toLowerCase' method on the result so we can compare
  // to lower case character 'j' afterwards.
  // Look up these methods on Mozilla Developer Network web site if needed.
- firstLetter = firstLetter.toLowerCase();
+ //firstLetter = firstLetter.toLowerCase();
   // STEP 12:
   // Compare the 'firstLetter' retrieved in STEP 11 to lower case
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
